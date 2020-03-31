@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgboii"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ihslogo"
+                android:layout_gravity="center_horizontal"
+                >
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/phbg"
+                android:hint="Phone Number"
+                android:textColorHint="#515151"
+                android:textColor="#515151"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phoneboii"
+                android:padding="10dp"
+                ></EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/enterbutton"
+                android:layout_marginTop="40dp"
+                android:text="Enter"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+
+                ></Button>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
